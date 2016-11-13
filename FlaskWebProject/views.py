@@ -13,7 +13,7 @@ from FlaskWebProject import app
 
 locations = [(37.8707,-122.2515, 'http://live.calhacks.io'), (48.8566, 2.3522, 'https://en.wikipedia.org/wiki/Paris'), (37.8721, -122.2578,
     'http://campanile.berkeley.edu'), (37.86798, -122.266212, 'https://www.yelp.com/biz/u-cha-berkeley'), (37.870102, -122.268148, "https://www.bart.gov/schedules/bystation"), (37.8756, -122.2588, 'https://people.eecs.berkeley.edu/~sequin/soda/soda.html'),
-(37.8741, -122.2639, 'http://access-guide.berkeley.edu/buildings/tolman-hall'), (37.8716, -122.2538, 'http://haas.berkeley.edu'), (37.8745, -122.2573,'http://www.mse.berkeley.edu/about/hmmb'), (37.8691, -122.2597, 'https://asuc.org/studentunion/'), (37.867853, -122.251574, 'http://www.calgreeks.com'), (37.8725, -122.2609, 'http://www.lib.berkeley.edu/libraries/moffitt-library'), (37.8709, -122.2564, 'https://foursquare.com/v/morrison-hall/4b7337c7f964a52087a22de3')]
+(37.8741, -122.2639, 'http://access-guide.berkeley.edu/buildings/tolman-hall'), (37.8716, -122.2538, 'http://haas.berkeley.edu'), (37.8745, -122.2573,'http://www.mse.berkeley.edu/about/hmmb'), (37.8691, -122.2597, 'https://asuc.org/studentunion/'), (37.867853, -122.251574, 'http://www.calgreeks.com'), (37.8725, -122.2609, 'http://www.lib.berkeley.edu/libraries/moffitt-library'), (37.8709, -122.2564, 'https://foursquare.com/v/morrison-hall/4b7337c7f964a52087a22de3'), (37.8705, -122.2606, 'https://en.wikipedia.org/wiki/Dwinelle_Hall'), (37.8715, -122.2620, 'https://bds.berkeley.edu/vlsb')]
 
 @app.route('/')
 def home():
