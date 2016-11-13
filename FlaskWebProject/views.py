@@ -5,7 +5,7 @@ import uuid
 import math
 
 # import config
-import pydocumentdb.document_client as document_client
+# import pydocumentdb.document_client as document_client
 
 from datetime import datetime
 from flask import render_template, jsonify
